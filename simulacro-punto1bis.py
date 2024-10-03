@@ -58,8 +58,8 @@ def ingresar_datos_item():
     descrip = input("Ingrese la descripción del producto: ")
     cant = int(input("Ingrese la cantidad: "))
     precUni = float(input("Ingrese el precio unitario: "))
-
     return Item(codProd, descrip, cant, precUni)
+    
 factura = ingresar_datos_factura()
 agregar_mas_items = True
 
